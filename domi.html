@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Summary Wider Than List Item</title>
+  <style>
+    ul {
+      list-style-type: none;
+      padding: 0;
+    }
+
+    li {
+      width: 400px; /* Set the width of the list item */
+      margin: 10px 0;
+      position: relative; /* Make li a positioning context */
+    }
+
+    summary {
+      display: block; /* Make summary behave like a block element */
+      background-color: #f0f0f0;
+      padding: 10px;
+      border: 1px solid #ccc;
+      cursor: pointer;
+      position: absolute; /* Position summary outside li boundaries */
+      top: 0;
+      left: -20px; /* Extend summary to the left */
+      width: 800px; /* Set a wider width for the summary */
+    }
+
+    summary:hover {
+      background-color: #e0e0e0; /* Optional: Add hover effect */
+    }
+
+    .content {
+      padding: 10px;
+      background-color: #fafafa;
+      border: 1px solid #ccc;
+      margin-top: 10px; /* Space below the summary */
+    }
+  </style>
+</head>
+<body>
+  <ul>
+    <li>
+      <details>
+        <summary>Item 1</summary>
+        <div class="content">
+          Content for Item 1 goes here.
+        </div>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>Item 2</summary>
+        <div class="content">
+          Content for Item 2 goes here.
+        </div>
+      </details>
+    </li>
+    <li>
+      <details>
+        <summary>Item 3</summary>
+        <div class="content">
+          Content for Item 3 goes here.
+        </div>
+      </details>
+    </li>
+  </ul>
+</body>
+</html>

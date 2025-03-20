@@ -1,0 +1,418 @@
+*{
+margin: 0;
+padding: 0;
+}
+.main{
+	width: 100%;
+	height: auto;
+}
+.header1{
+	float: left;
+	height: 100px;
+	width: 100%;
+	background-color: transparent;
+	position: sticky;
+	z-index: 99999;
+ } 
+ .hed1{
+float: left;
+	height: 100px;
+	width: 15%;
+	background-color: transparent;
+	box-sizing: border-box;
+ }
+ .hed1 img{
+float: right;
+	height: 100px;
+	width: 65%;
+border: none;
+box-sizing: border-box;
+ }
+ .hed11{
+width: 80%;
+box-sizing: border-box;
+float: left;
+	height: 100px;
+margin-left: 4%;
+background-color: transparent;
+/*background-image:linear-gradient(orange,white,green);
+ */} 
+
+ .hed11 ul li{
+height: 50px;
+width: 110px;
+background-color: transparent;
+border: none;
+box-sizing: border-box;
+display: inline-block;
+margin-top: 1.8%;
+text-align:justify-all;
+padding: 1%;
+float: left;
+ } 
+ .hed11 ul li:hover{
+color: white;
+ 	background-color: black;
+}   
+.section1{
+height:500px;
+width: 100%;
+background-color: transparent;
+float: left;
+
+}
+.section2{
+height:500px;
+width: 100%;
+background-color: transparent;
+float: left;
+animation-name:ani;
+animation-duration: 15s;
+animation-iteration-count: 20;
+}
+
+@keyframes ani{
+0%{background-image:url(m1.jpeg);}
+40%{background-image:url(m3.jpeg);}
+60%{background-image:url(m2.jpeg);}
+80%{background-image:url(m3.jpeg);}
+100%{background-image:url(m1.jpeg);}
+} 
+
+.description{
+height:auto;
+width: 100%;
+
+float: left;
+} 
+.desc{
+
+height:650px;
+width: 100%;
+background-color: transparent;
+
+
+}
+.desc1{
+height:600px;
+width: 40%;
+background-color: transparent;
+float: left;
+padding-left: 10%;
+padding-top: 5%;
+padding-right: 1%;
+
+}
+.desc1 h2{
+font-family: Arial;
+font-size: 30px;
+} 
+.desc1 h1{
+font-family: Arial;
+font-size: 35px;
+color:#00CCCC;
+margin-top: 1%;
+}
+.desc1 h1:hover{
+
+border-bottom: solid 1px red;
+
+} 
+.desc1 p{
+font-family: Arial;
+font-size: 20px;
+color:black;
+margin-top: 5%;
+text-align: justify-all;
+} 
+
+.desc1 a{
+font-family: Arial;
+font-size: 22px;
+color: #0080FF;
+}  
+
+.desc1 button{
+margin-top: 6%;
+height: 50px;
+width: 25%;
+
+background-color:  #0080FF;
+border-radius: 10px;
+font-family: Arial;
+font-size: 20px;
+color:white;
+border: none;
+
+} 
+.vedio1{
+height:500px;
+width: 30%;
+background-color: transparent;
+float: left;
+padding-left: 10%;
+padding-top: 15%;
+padding-right: 1%;
+}
+.choose_us{
+
+height: 600px;
+width: 100%;
+float: left;
+background-color: transparent;
+} 
+.choose1{
+height: 500px;
+width: 80%;
+float: left;
+background-color:transparent;
+padding-left: 14%;
+} 
+
+.choose1 h1{
+
+font-family: Arial;
+font-size: 30px;
+color:#00CCCC;
+
+} 
+
+.us1{
+height: 240px;
+width: 350px;
+float: left;
+background-color: white;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+margin-top: 5%;
+
+} 
+
+.us2{
+height: 200px;
+width: 350px;
+float: left;
+background-color: white;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+margin-top: 5%;
+margin-left: 5%;
+}  
+.us1:hover{
+background-color: pink;
+cursor: pointer;
+} 
+
+.us2:hover{
+background-color: pink;
+cursor: pointer;
+} 
+
+.us3:hover{
+background-color: pink;
+cursor: pointer;
+} 
+
+
+.us3{
+height: 240px;
+width: 350px;
+float: left;
+background-color: white;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+margin-top: 5%;
+margin-left: 5%;
+
+} 
+.us1 i{
+
+font-size: 50px;
+color:royalblue;
+margin-left: 44%;
+margin-top: 5%;
+} 
+.us1 h2{
+ text-align: center;
+font-family: Arial;
+margin-top: 5%;
+}
+
+.us1 p{
+ 
+color: black;
+font-size: 20px;
+text-align: center;
+padding: 5%;
+}
+
+.us2 i{
+
+font-size: 50px;
+color:royalblue;
+margin-left: 44%;
+margin-top: 5%;
+} 
+.us2 h2{
+ text-align: center;
+font-family: Arial;
+margin-top: 5%;
+}
+
+.us2 p{
+ 
+color: black;
+font-size: 20px;
+text-align: center;
+padding: 5%;
+}
+
+
+.us3 i{
+
+font-size: 50px;
+color:royalblue;
+margin-left: 44%;
+margin-top: 5%;
+} 
+.us3 h2{
+ text-align: center;
+font-family: Arial;
+margin-top: 5%;
+}
+
+.us3 p{
+ 
+color: black;
+font-size: 20px;
+text-align: center;
+padding: 5%;
+} 
+.team{
+height:1600px;
+width: 100%;
+float: left;
+background-color:transparent;
+} 
+.our{
+height: 600px;
+width: 80%;
+float: left;
+background-color:transparent;
+padding-left: 14%;
+
+.our h2 {
+
+font-family: Arial;
+font-size: 30px;
+color:#00CCCC;
+}  
+.member1{
+height: 400px;
+width: 300px;
+float: left;
+background-color: white;
+border-radius: 20px;
+box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+margin-top: 5%;
+margin-left: 5%;
+
+
+
+
+} 
+.member1:hover{
+background-color:lightskyblue;
+cursor: pointer;
+
+
+
+
+
+}
+
+
+
+
+.member1 img{
+height: 250px;
+width: 270px;
+float: left;
+border-radius: 10px;
+margin:5%
+} 
+
+.member1 h2{
+text-align: center;
+font-family: Arial;
+margin-top: 5%;
+
+
+}
+.member1 p{
+color: gray;
+font-size: 20px;
+text-align: center;
+padding: 5%;
+margin-top: 3%;
+
+
+} 
+.spe{
+height: 700px;
+width: 100%;
+float: left;
+background-image: url(bag1.jpeg);
+background-size: cover;
+background-repeat: no-repeat;
+margin-top: 5%;
+border-radius: 10px;
+
+} 
+
+
+
+
+.spe h1{
+font-family: Arial;
+font-size: 35px;
+color:black;
+margin-top: 5%;
+text-align: center;
+} 
+.spell{
+height: 220px;
+width: 15%;
+float: left;
+margin-top: 5%;
+background-color:antiquewhite;;
+margin-left: 10%;
+border-radius: 10px;
+border: none;
+cursor: pointer;
+margin-right: 5%;
+}
+
+.spell:hover{
+background-color:gray;
+
+
+
+}
+
+.spell img{
+height: 150px;
+width: 90%;
+float: left;
+margin-top: 5%;
+border-radius: 10px;
+margin: 5%;
+cursor: pointer;
+}
+.spell h2{
+text-align: center;
+color: blueviolet;
+
+
+}
+
